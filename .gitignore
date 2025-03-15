@@ -1,0 +1,22 @@
+node_modules/ \ncoverage/
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Testing
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
